@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: object-detection
-          image: sampreethamithkumar/object_detection:4
+          image: sampreethamithkumar/object_detection_instance_build:1
           ports:
             - containerPort: 5000
 ---
